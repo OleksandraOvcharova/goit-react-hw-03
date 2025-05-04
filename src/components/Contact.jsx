@@ -7,15 +7,11 @@ export default function Contact({ id, name, number, onDelete }) {
     <div className="contact-box">
       <div className="contact-container">
         <div className="contact-name-container">
-          <svg className="icon-box">
-            <FaUserAlt className="icon" />
-          </svg>
+          <FaUserAlt className="icon-box" />
           <p>{name}</p>
         </div>
         <div className="contact-number-container">
-          <svg className="icon-box">
-            <FaPhone className="icon" />
-          </svg>
+          <FaPhone className="icon-box" />
           <p>{number}</p>
         </div>
       </div>
